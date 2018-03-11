@@ -122,7 +122,7 @@ See the [Sample section](#sample) for a sample with a more detailed explanation.
 - A recent version of the Cordova CLI (such as `6.5.0`, Cordova 7(+) no longer supports WP8) is recommended. Cordova versions older than `6.0.0` are missing the `cordova-ios@4.0.0` security fixes. In addition it is *required* to use `cordova prepare` in case of cordova-ios older than `4.3.0` (Cordova CLI `6.4.0`).
 - This plugin will NOT work on `cordova-android@7` due to issue with JAR and NDK library files as discussed in [litehelpers/Cordova-sqlite-storage#729](https://github.com/litehelpers/Cordova-sqlite-storage/issues/729).
 - SQLite _implementation is included_ (all platforms), with the following definitions for TBD iOS/macOS/Windows:
-  - `SQLITE_THREADSAFE=1` (`SQLITE_THREADSAFE=2` on iOS/macOS)
+  - `SQLITE_THREADSAFE=1`
   - `SQLITE_DEFAULT_MEMSTATUS=0`
   - `SQLITE_OMIT_DECLTYPE`
   - `SQLITE_OMIT_DEPRECATED`

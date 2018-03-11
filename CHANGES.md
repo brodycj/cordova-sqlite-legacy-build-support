@@ -1,5 +1,9 @@
 # Changes
 
+## cordova-sqlite-legacy-build-support 1.3.7
+
+- cordova-sqlite-legacy-build-supportwith SQLITE_THREADSAFE=1 for iOS/macOS ref: litehelpers/Cordova-sqlite-storage#754 (<https://github.com/litehelpers/Cordova-sqlite-storage/issues/754>)
+
 ## cordova-sqlite-legacy-build-support 1.3.6
 
 ##### cordova-sqlite-legacy-core 1.0.6
