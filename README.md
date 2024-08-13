@@ -1,3 +1,12 @@
+# WARNING TEST PLUGIN
+
+This plugin is forked from https://github.com/brodycj/cordova-sqlite-legacy-build-support, and only provided to test the compilation of new Libs for Android 15 16Kb Page Size.
+TODO:
+- Test
+- Commit in the original package
+
+* Note: The platform armebi is obsolete and not recompiled
+
 # Cordova/PhoneGap sqlite legacy build support
 
 Native interface to sqlite in a Cordova/PhoneGap plugin for Android, iOS, macOS, WP8, Windows 8.1, Windows Phone 8.1, and Windows 10 UWP (Universal Windows Platform), with API similar to HTML5/[Web SQL API](http://www.w3.org/TR/webdatabase/).
