@@ -1,5 +1,10 @@
 # Changes
 
+## cordova-sqlite-legacy-build-support 1.3.8
+- Add support for Android 15 Page Size 16Kb
+- https://developer.android.com/guide/practices/page-sizes
+- https://source.android.com/docs/core/architecture/16kb-page-size/16kb
+
 ## cordova-sqlite-legacy-build-support 1.3.7
 
 - cordova-sqlite-legacy-build-supportwith SQLITE_THREADSAFE=1 for iOS/macOS ref: litehelpers/Cordova-sqlite-storage#754 (<https://github.com/litehelpers/Cordova-sqlite-storage/issues/754>)

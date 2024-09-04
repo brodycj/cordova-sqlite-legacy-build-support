@@ -1,7 +1,7 @@
 {
   "name": "cordova-sqlite-legacy-build-support",
-  "version": "1.3.7",
-  "description": "Native interface to SQLite for PhoneGap/Cordova (legacy build support)",
+  "version": "1.3.8",
+  "description": "TEST Native interface to SQLite for PhoneGap/Cordova (legacy build support)",
   "cordova": {
     "id": "cordova-sqlite-legacy-build-support",
     "platforms": [
