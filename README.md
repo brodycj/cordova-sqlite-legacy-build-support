@@ -1,11 +1,22 @@
 # WARNING TEST PLUGIN
 
 This plugin is forked from https://github.com/brodycj/cordova-sqlite-legacy-build-support, and only provided to test the compilation of new Libs for Android 15 16Kb Page Size.
-TODO:
-- Test
-- Commit in the original package
+
+- src/android/libs/ .so files was recompiled
+- armebi platform removed (not compatible anymore with NDK >= 26)
+
+Important:
+- This change is only for test currently, and not for Production !
+- In your Cordova app, you must add the following code in /app/build.gradle, under android { block:
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
 
 * Note: The platform armebi is obsolete and not recompiled
+
+
 
 # Cordova/PhoneGap sqlite legacy build support
 
